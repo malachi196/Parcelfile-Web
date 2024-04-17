@@ -1,0 +1,183 @@
+body {
+    background-color: #969393; /* pinkish background: rgb(253, 189, 189) */
+    font-family: serif;
+    border: 2px solid gray; 
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 256px;
+    max-width: 1024px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+html {
+    background: radial-gradient(circle,SkyBlue 50%,LightCyan 50%, SkyBlue);
+    background-size: 8px 8px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(191, 234, 252);
+    border: 2px solid #111111;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    margin: 10px;
+}
+
+.div-textbox-header-infobox-left {
+    background-color: lightskyblue;
+    border: 2px solid rgb(245, 22, 22);
+    border-radius: 16px;
+    font-family: serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    min-width: 256px;
+    max-width: 607px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-textbox-header-infobox-center {
+    background-color: lightskyblue;
+    border: 2px solid rgb(245, 22, 22);
+    border-radius: 16px;
+    font-family: serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    min-width: 256px;
+    max-width: 607px;
+    margin: auto;
+}
+
+.div-textbox-header-infobox-right {
+    background-color: lightskyblue;
+    border: 2px solid rgb(245, 22, 22);
+    border-radius: 16px;
+    font-family: serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    min-width: 256px;
+    max-width: 607px;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.div-textbox-header-infobox-full {
+    background-color: lightskyblue;
+    border: 2px solid rgb(245, 22, 22);
+    border-radius: 16px;
+    font-family: serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.hover_link_index:hover {
+    color:red;
+}
+
+.border-roundedge {
+    border: 2px solid grey;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.center-format {
+    margin: auto;
+    padding: 8px;
+    min-width: 200px;
+    max-width: fit-content;
+}
+
+.no-margin {
+    margin: none !important;
+}
+
+div.notlarge {
+    height: 50px;
+}
+
+div.notlong {
+    max-width: 160px;
+    min-width: 50px
+}
+
+.no-link-decor {
+    text-decoration: none;
+    color: #111111;
+}
+
+.greyborder-blueback {
+    background-color: lightskyblue;
+    border: 2px solid grey !important;
+}
+
+div.notebox-imagespace {
+    background-color: rgb(60, 179, 253);
+    border: 2px solid blue !important;
+    font-weight: bold !important;
+    margin:auto;
+    min-width: 15px;
+    max-width: fit-content;
+    max-height: fit-content;
+    min-height: 2px;
+    border-radius: 16px;
+}
+
+div.notebox-onlytext {
+    background-color: rgb(60, 179, 253);
+    border: 2px solid blue !important;
+    padding: 8px;
+    font-weight: bold !important;
+    margin:auto;
+    min-width: 15px;
+    max-width: fit-content;
+    max-height: 15px;
+    min-height: 2px;
+    border-radius: 16px;
+}
+
+.padding-8px {
+    padding: 8px;
+}
+
+.bottom-margin-small {
+    margin-bottom: 8px !important;
+}
